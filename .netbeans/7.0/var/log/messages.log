@@ -1,0 +1,400 @@
+-------------------------------------------------------------------------------
+>Log Session: Sunday, September 20, 2015 12:14:40 PM CDT
+>System Info: 
+  Product Version         = NetBeans IDE 7.0.1 (Build 20121011-unknown-revn)
+  Operating System        = Linux version 3.13.0-43-generic running on amd64
+  Java; VM; Vendor        = 1.7.0_79; OpenJDK 64-Bit Server VM 24.79-b02; Oracle Corporation
+  Runtime                 = OpenJDK Runtime Environment 1.7.0_79-b14
+  Java Home               = /usr/lib/jvm/java-7-openjdk-amd64/jre
+  System Locale; Encoding = en_US (nb); UTF-8
+  Home Directory          = /home/cgmcname
+  Current Directory       = /home/cgmcname
+  User Directory          = /home/cgmcname/.netbeans/7.0
+  Installation            = /usr/share/netbeans/7.0.1/nb
+                            /usr/share/netbeans/7.0.1/ide
+                            /usr/share/netbeans/7.0.1/java
+                            /usr/share/netbeans/7.0.1/apisupport
+                            /usr/share/netbeans/7.0.1/harness
+                            /usr/share/netbeans/7.0.1/platform
+  Boot & Ext. Classpath   = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+  Application Classpath   = /usr/share/netbeans/7.0.1/platform/lib/boot.jar:/usr/share/netbeans/7.0.1/platform/lib/org-openide-modules.jar:/usr/share/netbeans/7.0.1/platform/lib/org-openide-util.jar:/usr/share/netbeans/7.0.1/platform/lib/org-openide-util-lookup.jar:/usr/lib/jvm/java-7-openjdk-amd64/lib/dt.jar:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar
+  Startup Classpath       = /usr/share/netbeans/7.0.1/platform/core/core.jar:/usr/share/netbeans/7.0.1/platform/core/org-openide-filesystems.jar:/usr/share/netbeans/7.0.1/nb/core/org-netbeans-upgrader.jar:/usr/share/netbeans/7.0.1/nb/core/locale/core_nb.jar
+-------------------------------------------------------------------------------
+WARNING [org.netbeans.core.startup.NbEvents]: The extension /usr/share/netbeans/7.0.1/ide/modules/ext/svnClientAdapter-main-1.6.13.jar may be multiply loaded by modules: [/usr/share/netbeans/7.0.1/ide/modules/org-netbeans-libs-svnClientAdapter-javahl.jar, /usr/share/netbeans/7.0.1/ide/modules/org-netbeans-libs-svnClientAdapter.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+INFO [org.netbeans.JarClassLoader]: Cannot open /usr/share/netbeans/7.0.1/java/modules/ext/swing-worker-1.1.jar
+java.io.FileNotFoundException: /usr/share/netbeans/7.0.1/java/modules/ext/swing-worker-1.1.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:133)
+	at org.netbeans.JarClassLoader$JarSource$1.call(Unknown Source)
+	at org.netbeans.JarClassLoader$JarSource$1.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+[catch] at org.netbeans.JarClassLoader$JarSource.getJarFile(Unknown Source)
+	at org.netbeans.JarClassLoader$JarSource.listCoveredPackages(Unknown Source)
+	at org.netbeans.JarClassLoader.getCoveredPackages(Unknown Source)
+	at org.netbeans.JarClassLoader.<init>(Unknown Source)
+	at org.netbeans.StandardModule$OneModuleClassLoader.<init>(Unknown Source)
+	at org.netbeans.StandardModule.createNewClassLoader(Unknown Source)
+	at org.netbeans.StandardModule.classLoaderUp(Unknown Source)
+	at org.netbeans.ModuleManager.enable(Unknown Source)
+	at org.netbeans.core.startup.ModuleList.installNew(Unknown Source)
+	at org.netbeans.core.startup.ModuleList.trigger(Unknown Source)
+	at org.netbeans.core.startup.ModuleSystem.restore(Unknown Source)
+	at org.netbeans.core.startup.Main.getModuleSystem(Unknown Source)
+	at org.netbeans.core.startup.Main.start(Unknown Source)
+	at org.netbeans.core.startup.TopThreadGroup.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+INFO [org.netbeans.JarClassLoader]: Cannot open /usr/share/netbeans/7.0.1/ide/modules/ext/svnkit-javahl.jar
+java.io.FileNotFoundException: /usr/share/netbeans/7.0.1/ide/modules/ext/svnkit-javahl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:133)
+	at org.netbeans.JarClassLoader$JarSource$1.call(Unknown Source)
+	at org.netbeans.JarClassLoader$JarSource$1.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+[catch] at org.netbeans.JarClassLoader$JarSource.getJarFile(Unknown Source)
+	at org.netbeans.JarClassLoader$JarSource.listCoveredPackages(Unknown Source)
+	at org.netbeans.JarClassLoader.getCoveredPackages(Unknown Source)
+	at org.netbeans.JarClassLoader.<init>(Unknown Source)
+	at org.netbeans.StandardModule$OneModuleClassLoader.<init>(Unknown Source)
+	at org.netbeans.StandardModule.createNewClassLoader(Unknown Source)
+	at org.netbeans.StandardModule.classLoaderUp(Unknown Source)
+	at org.netbeans.ModuleManager.enable(Unknown Source)
+	at org.netbeans.core.startup.ModuleList.installNew(Unknown Source)
+	at org.netbeans.core.startup.ModuleList.trigger(Unknown Source)
+	at org.netbeans.core.startup.ModuleSystem.restore(Unknown Source)
+	at org.netbeans.core.startup.Main.getModuleSystem(Unknown Source)
+	at org.netbeans.core.startup.Main.start(Unknown Source)
+	at org.netbeans.core.startup.TopThreadGroup.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.beans, org.netbeans.modules.debugger.jpda, org.netbeans.modules.debugger.jpda.ui, org.netbeans.modules.diff, org.netbeans.modules.editor.bracesmatching, org.netbeans.modules.editor.codetemplates, org.netbeans.modules.editor.indent.project, org.netbeans.modules.editor.macros, org.netbeans.modules.form, org.netbeans.modules.form.j2ee, org.netbeans.modules.i18n, org.netbeans.modules.i18n.form, org.netbeans.modules.j2ee.persistence, org.netbeans.modules.java.examples, org.netbeans.modules.java.navigation, org.netbeans.modules.javadoc, org.netbeans.modules.javawebstart, org.netbeans.modules.jumpto, org.netbeans.modules.localhistory, org.netbeans.modules.mercurial, org.netbeans.modules.options.editor, org.netbeans.modules.properties, org.netbeans.modules.refactoring.api, org.netbeans.modules.subversion, org.netbeans.modules.swingapp, org.netbeans.modules.terminal, org.netbeans.modules.versioning, org.netbeans.modules.versioning.system.cvss, org.netbeans.modules.versioning.util, org.netbeans.modules.xml, org.netbeans.modules.xml.tools.java] use org.jdesktop.layout which is deprecated: Use javax.swing.GroupLayout instead. (In form editor: select Form ... in Inspector; change Layout Generation Style to Standard Java 6 code.)
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.db.sql.editor, org.netbeans.modules.editor.structure, org.netbeans.modules.java.editor, org.netbeans.modules.java.editor.lib, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
+WARNING [org.netbeans.core.startup.layers.NbinstURLMapper]: could find no FileObject for /usr/share/netbeans/7.0.1/java/modules/ext/swing-worker-1.1.jar
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.8.1 20121011-unknown-revn]
+	org.openide.util [8.15.1 20121011-unknown-revn]
+	org.openide.modules [7.23.1 20121011-unknown-revn]
+	org.openide.filesystems [7.47.1 20121011-unknown-revn]
+	org.netbeans.modules.queries/1 [1.23.1 20121011-unknown-revn]
+	org.openide.awt [7.31.1 20121011-unknown-revn]
+	org.netbeans.api.progress/1 [1.24.1 20121011-unknown-revn]
+	org.openide.dialogs [7.20.1 20121011-unknown-revn]
+	org.openide.nodes [7.21.1 20121011-unknown-revn]
+	org.openide.windows [6.40.1 20121011-unknown-revn]
+	org.netbeans.swing.tabcontrol [1.25.1 20121011-unknown-revn]
+	org.netbeans.swing.outline [1.14.1 20121011-unknown-revn]
+	org.openide.explorer [6.35.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.mimelookup/1 [1.22.1 20121011-unknown-revn]
+	org.openide.text [6.37.1 20121011-unknown-revn]
+	org.openide.actions [6.22.1 20121011-unknown-revn]
+	org.openide.loaders [7.21.1 20121011-unknown-revn]
+	org.openidex.util/3 [3.29.1 20121011-unknown-revn]
+	org.openide.io [1.27.1 20121011-unknown-revn]
+	org.openide.execution [1.22.1 20121011-unknown-revn]
+	org.netbeans.upgrader [4.18.1 20121011-unknown-revn]
+	org.netbeans.swing.plaf [1.20.1 20121011-unknown-revn]
+	org.netbeans.modules.projectapi/1 [1.36.1 20121011-unknown-revn]
+	org.netbeans.swing.dirchooser [1.12.1 20121011-unknown-revn]
+	org.netbeans.spi.viewmodel/2 [1.32.1 20121011-unknown-revn]
+	org.netbeans.spi.tasklist/1 [1.15.1.1 1 20121011-unknown-revn]
+	org.netbeans.api.annotations.common/1 [1.9.1 20121011-unknown-revn]
+	org.netbeans.spi.quicksearch [1.10.1 20121011-unknown-revn]
+	org.netbeans.spi.palette/1 [1.26.1 20121011-unknown-revn]
+	org.netbeans.spi.navigator/1 [1.17.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.settings/1 [1.36.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.util/1 [1.42.1 20121011-unknown-revn]
+	org.netbeans.modules.lexer/2 [1.39.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.editor.lib2/1 [1.43.1.10 10 20121011-unknown-revn]
+	org.netbeans.modules.editor.fold/1 [1.25.1.10 20121011-unknown-revn]
+	org.netbeans.modules.editor.indent/2 [1.24.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.lib/3 [3.9.1.13.10 13 20121011-unknown-revn]
+	org.netbeans.spi.editor.hints/0 [1.18.1.7.10 7 20121011-unknown-revn]
+	org.netbeans.api.debugger/1 [1.31.1 20121011-unknown-revn]
+	org.netbeans.modules.projectuiapi/1 [1.51.1.8 8 20121011-unknown-revn]
+	org.netbeans.spi.debugger.ui/1 [2.27.1 20121011-unknown-revn]
+	org.netbeans.api.xml/1 [1.26.1 20121011-unknown-revn]
+	org.netbeans.modules.xml.core/2 [1.25.1.4 4 20121011-unknown-revn]
+	org.netbeans.modules.editor.errorstripe.api/1 [2.16.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.editor.errorstripe/2 [2.17.1.1.1 1 20121011-unknown-revn]
+	org.netbeans.bootstrap/1 [2.40.1 20121011-unknown-revn]
+	org.netbeans.core.startup/1 [1.31.1 20121011-unknown-revn]
+	org.netbeans.modules.keyring [1.6.1 20121011-unknown-revn]
+	org.netbeans.core/2 [3.25.1 20121011-unknown-revn]
+	org.netbeans.modules.options.api/1 [1.22.1 20121011-unknown-revn]
+	org.netbeans.modules.javahelp/1 [2.22.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.settings.storage/1 [1.29.1 20121011-unknown-revn]
+	org.jdesktop.layout/1 [1.17.1 20121011-unknown-revn]
+	org.netbeans.modules.editor/3 [1.57.1.5.13.10 5 20121011-unknown-revn]
+	org.netbeans.modules.options.keymap [1.14.1 20121011-unknown-revn]
+	org.netbeans.modules.options.editor/1 [1.25.1 20121011-unknown-revn]
+	org.netbeans.modules.diff/1 [1.33.1.42.1 42 20121011-unknown-revn]
+	org.netbeans.modules.editor.completion/1 [1.26.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.editor.codetemplates/1 [1.22.1.1 1 20121011-unknown-revn]
+	org.netbeans.core.ui/1 [1.27.1 20121011-unknown-revn]
+	org.netbeans.api.java.classpath/1 [1.29.1 20121011-unknown-revn]
+	org.netbeans.libs.jna/1 [1.14.1 20121011-unknown-revn]
+	org.netbeans.modules.masterfs/2 [2.32.1 20121011-unknown-revn]
+	org.netbeans.libs.lucene/3 [3.2.1 20121011-unknown-revn]
+	org.netbeans.modules.parsing.lucene [1.5.1 20121011-unknown-revn]
+	org.netbeans.modules.parsing.api/1 [1.43.1.6 6 20121011-unknown-revn]
+	org.netbeans.modules.jumpto/1 [1.23.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.editor.guards/1 [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.refactoring.api [1.16.1 20121011-unknown-revn]
+	org.netbeans.modules.csl.api/2 [2.17.2.2.1.1.6 2 20121011-unknown-revn]
+	org.netbeans.modules.xml.lexer [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.deprecated.pre65formatting/0 [1.4.1.1.5.13.10 1 20121011-unknown-revn]
+	org.netbeans.modules.editor.structure/1 [1.29.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.editor.bracesmatching/0 [1.18.1 20121011-unknown-revn]
+	org.netbeans.modules.xml.text/2 [1.29.1 20121011-unknown-revn]
+	org.netbeans.modules.xml.xam/1 [1.14.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.xml.schema.model/1 [1.14.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.xml.axi [1.14.1 20121011-unknown-revn]
+	org.apache.xml.resolver [1.15.1.12 12 20121011-unknown-revn]
+	org.netbeans.modules.xml.retriever/1 [1.14.1 20121011-unknown-revn]
+	org.netbeans.modules.xml [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.servletapi/1 [1.23.1 20121011-unknown-revn]
+	org.netbeans.modules.xsl/1 [1.26.1 20121011-unknown-revn]
+	org.netbeans.modules.xml.xdm/1 [1.15.1.1 1 20121011-unknown-revn]
+	org.netbeans.libs.xerces/1 [1.22.1.280 280 20121011-unknown-revn]
+	org.netbeans.modules.xml.tax/2 [1.26.1.280 20121011-unknown-revn]
+	org.netbeans.modules.xml.tools/2 [1.26.1 20121011-unknown-revn]
+	org.netbeans.api.java/1 [1.33.1 20121011-unknown-revn]
+	org.netbeans.modules.classfile/1 [1.31.1 20121011-unknown-revn]
+	org.apache.tools.ant.module/3 [3.47.1.2 2 20121011-unknown-revn]
+	org.netbeans.modules.project.libraries/1 [1.29.1 20121011-unknown-revn]
+	org.netbeans.modules.java.platform/1 [1.21.1 20121011-unknown-revn]
+	org.netbeans.modules.xml.catalog/2 [1.24.1.4 4 20121011-unknown-revn]
+	org.netbeans.modules.project.ant/1 [1.42.1 20121011-unknown-revn]
+	org.netbeans.modules.java.project/1 [1.38.1 20121011-unknown-revn]
+	org.netbeans.libs.javacapi [7.6.1.3 3 20121011-unknown-revn]
+	org.netbeans.libs.javacimpl/1 [0.22.1.15 15 20121011-unknown-revn]
+	org.netbeans.modules.java.preprocessorbridge [1.18.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.java.lexer/1 [1.14.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.indent.project/0 [1.5.1 20121011-unknown-revn]
+	org.netbeans.modules.java.source [0.80.1.17.15.6 17 20121011-unknown-revn]
+	org.netbeans.modules.xml.tools.java [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.xml.schema.completion [1.13.1 20121011-unknown-revn]
+	org.netbeans.core.multiview/1 [1.22.1 20121011-unknown-revn]
+	org.netbeans.modules.xml.multiview/1 [1.19.1.2 2 20121011-unknown-revn]
+	org.netbeans.core.execution/1 [1.24.1 20121011-unknown-revn]
+	org.netbeans.modules.favorites/1 [1.25.1 20121011-unknown-revn]
+	org.netbeans.modules.projectui [1.26.1.8 20121011-unknown-revn]
+	org.netbeans.modules.welcome/1 [1.24.1 20121011-unknown-revn]
+	org.netbeans.modules.web.common [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.spellchecker.apimodule [1.8.1 20121011-unknown-revn]
+	org.netbeans.modules.versioning/1 [1.22.1.1.42.1 1 20121011-unknown-revn]
+	org.netbeans.modules.versioning.util [1.15.1.42.1 20121011-unknown-revn]
+	org.netbeans.lib.cvsclient/1 [1.27.1 20121011-unknown-revn]
+	org.netbeans.libs.jzlib/1 [1.8.1.107 107 20121011-unknown-revn]
+	org.netbeans.libs.jsch/1 [1.18.2 20121011-unknown-revn]
+	org.netbeans.modules.versioning.system.cvss/1 [1.23.1.1.42.1 1 20121011-unknown-revn]
+	org.netbeans.modules.versioning.indexingbridge/0 [1.8.1 20121011-unknown-revn]
+	org.netbeans.modules.sendopts/2 [2.13.1 20121011-unknown-revn]
+	org.netbeans.modules.utilities/1 [1.39.1 20121011-unknown-revn]
+	org.netbeans.modules.utilities.project/1 [1.19.1 20121011-unknown-revn]
+	org.netbeans.modules.usersguide/1 [1.32.1 20121011-unknown-revn]
+	org.netbeans.modules.autoupdate.services [1.26.1 20121011-unknown-revn]
+	org.netbeans.modules.updatecenters/1 [1.23.1 20121011-unknown-revn]
+	org.netbeans.lib.uihandler [1.26.1 20121011-unknown-revn]
+	org.netbeans.modules.uihandler [2.16.1 20121011-unknown-revn]
+	org.netbeans.modules.uihandler.exceptionreporter [1.12.1 20121011-unknown-revn]
+	org.netbeans.lib.terminalemulator [1.16.1 20121011-unknown-revn]
+	org.netbeans.modules.terminal [1.5.1 20121011-unknown-revn]
+	org.netbeans.modules.tasklist.ui/1 [1.14.1.1 20121011-unknown-revn]
+	org.netbeans.modules.tasklist.todo/1 [1.13.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.tasklist.projectint/1 [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.tasklist.kit [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.target.iterator/1 [1.6.1 20121011-unknown-revn]
+	org.netbeans.modules.java.sourceui/1 [1.23.1.1.17 1 20121011-unknown-revn]
+	org.netbeans.modules.java.api.common/0 [1.29.1 20121011-unknown-revn]
+	org.netbeans.libs.antlr3.runtime [1.5.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.j2ee.metadata/0 [1.15.1 20121011-unknown-revn]
+	org.netbeans.modules.j2ee.metadata.model.support/1 [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.j2ee.persistenceapi/1 [1.15.1.1 1 20121011-unknown-revn]
+	org.netbeans.api.debugger.jpda/2 [2.31.1 20121011-unknown-revn]
+	org.netbeans.modules.debugger.jpda.ant [1.21.1 20121011-unknown-revn]
+	org.netbeans.modules.ant.browsetask [1.24.1 20121011-unknown-revn]
+	org.netbeans.modules.java.j2seproject/1 [1.44.1.45 45 20121011-unknown-revn]
+	org.netbeans.modules.java.guards/0 [0.14.1 20121011-unknown-revn]
+	org.jdesktop.beansbinding/1 [1.11.1.121 121 20121011-unknown-revn]
+	org.netbeans.modules.form/2 [1.37.1.2 2 20121011-unknown-revn]
+	org.netbeans.modules.properties/1 [1.36.1 20121011-unknown-revn]
+	org.netbeans.modules.swingapp [1.14.1.2 20121011-unknown-revn]
+	org.netbeans.libs.svnClientAdapter/1 [1.17.1 20121011-unknown-revn]
+	org.netbeans.libs.ini4j/1 [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.subversion [1.17.1.42.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.plain.lib/1 [1.17.1 20121011-unknown-revn]
+	org.netbeans.modules.spellchecker [1.17.1.1.7 1 20121011-unknown-revn]
+	org.netbeans.modules.spellchecker.kit [1.9.1 20121011-unknown-revn]
+	org.netbeans.modules.properties.syntax/1 [1.32.1 20121011-unknown-revn]
+	org.netbeans.modules.spellchecker.bindings.properties [1.5.1 20121011-unknown-revn]
+	org.netbeans.modules.java.editor.lib/1 [1.20.1 20121011-unknown-revn]
+	org.netbeans.modules.spellchecker.bindings.java/1 [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.html.lexer/1 [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.spellchecker.bindings.htmlxml [1.10.1 20121011-unknown-revn]
+	org.netbeans.modules.settings/1 [1.31.1 20121011-unknown-revn]
+	org.netbeans.modules.schema2beans/1 [1.29.1 20121011-unknown-revn]
+	org.netbeans.modules.refactoring.java/1 [1.20.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.projectui.buildmenu/1 [1.10.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.java.j2seplatform/1 [1.21.1 20121011-unknown-revn]
+	org.netbeans.modules.projectimport.eclipse.core/1 [2.13.1 20121011-unknown-revn]
+	org.netbeans.modules.projectimport.eclipse.j2se [1.11.1.45 20121011-unknown-revn]
+	org.netbeans.modules.progress.ui [1.16.1 20121011-unknown-revn]
+	org.netbeans.modules.print.editor [7.10.1 20121011-unknown-revn]
+	org.netbeans.modules.print [7.9.1 20121011-unknown-revn]
+	org.netbeans.modules.mercurial [1.19.1.42.1 20121011-unknown-revn]
+	org.netbeans.modules.localhistory [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.lexer.nbbridge/1 [1.15.1.1 20121011-unknown-revn]
+	org.netbeans.libs.bytelist/1 [0.11.1.1 1 20121011-unknown-revn]
+	org.netbeans.libs.jvyamlb/1 [0.13.1 20121011-unknown-revn]
+	org.netbeans.modules.languages.yaml [2.14.1 20121011-unknown-revn]
+	org.netbeans.modules.languages.manifest [1.15.1 20121011-unknown-revn]
+	org.netbeans.modules.languages.diff [1.16.1 20121011-unknown-revn]
+	org.netbeans.modules.keyring.impl [1.3.1 20121011-unknown-revn]
+	org.netbeans.libs.junit4 [1.13 20121011-unknown-revn]
+	org.netbeans.modules.junitlib [1.0 20121011-unknown-revn]
+	org.netbeans.modules.extexecution/2 [1.25.1 20121011-unknown-revn]
+	org.netbeans.modules.autoupdate.ui [1.23.1 20121011-unknown-revn]
+	org.netbeans.modules.gsf.testrunner [1.20.1 20121011-unknown-revn]
+	org.netbeans.modules.gototest/1 [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.junit/2 [2.46.1 20121011-unknown-revn]
+	org.netbeans.modules.javawebstart [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.java.hints.processor [1.7.1.1.15 1 20121011-unknown-revn]
+	org.netbeans.modules.java.editor/1 [2.34.1.8.1.1 8 20121011-unknown-revn]
+	org.netbeans.modules.java.hints/1 [1.54.1.5.8.17.6 5 20121011-unknown-revn]
+	org.netbeans.modules.javadoc/1 [1.37.1 20121011-unknown-revn]
+	org.netbeans.modules.java.source.ant [1.13.1.1.17 1 20121011-unknown-revn]
+	org.netbeans.modules.java.navigation/1 [1.21.1 20121011-unknown-revn]
+	org.netbeans.modules.beans/1 [1.32.1.1.8 1 20121011-unknown-revn]
+	org.netbeans.modules.ant.freeform/1 [1.28.1 20121011-unknown-revn]
+	org.netbeans.modules.java.freeform/1 [1.25.1 20121011-unknown-revn]
+	org.netbeans.modules.java.examples/1 [1.19.1 20121011-unknown-revn]
+	org.netbeans.modules.i18n/1 [1.35.1 20121011-unknown-revn]
+	org.netbeans.modules.java.debug [1.19.1.1.15.17 1 20121011-unknown-revn]
+	org.netbeans.modules.java.helpset/1 [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.ant.debugger/1 [1.20.1.2 20121011-unknown-revn]
+	org.netbeans.modules.editor.bookmarks/1 [1.17.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.actions/1 [1.9.1.10 20121011-unknown-revn]
+	org.netbeans.core.browser/1 [1.10.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.css.editor/1 [1.18.1 20121011-unknown-revn]
+	org.netbeans.core.output2/1 [1.22.1 20121011-unknown-revn]
+	org.netbeans.modules.css.visual/1 [2.17.1 20121011-unknown-revn]
+	org.netbeans.modules.image/1 [1.31.1 20121011-unknown-revn]
+	org.netbeans.modules.html.editor.lib/1 [1.33.1 20121011-unknown-revn]
+	org.netbeans.modules.html/1 [1.36.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.kit [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.dlight.nativeexecution [1.10.3.1 1 20121011-unknown-revn]
+	org.netbeans.modules.dlight.terminal [1.6.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.editor.plain/2 [1.18.1 20121011-unknown-revn]
+	org.netbeans.libs.osgi [1.5.1 20121011-unknown-revn]
+	org.netbeans.libs.felix [1.5.1 20121011-unknown-revn]
+	org.netbeans.core.windows/2 [2.28.1 20121011-unknown-revn]
+	org.netbeans.modules.core.kit [1.12.1 20121011-unknown-revn]
+	org.netbeans.core.ide/1 [1.24.1 20121011-unknown-revn]
+	org.netbeans.modules.editor.macros/0 [1.13.1.1.13 1 20121011-unknown-revn]
+	org.netbeans.modules.extbrowser/1 [1.23.1 20121011-unknown-revn]
+	org.netbeans.modules.defaults/1 [1.15.1 20121011-unknown-revn]
+	org.netbeans.modules.ide.kit [1.15.1 20121011-unknown-revn]
+	org.netbeans.modules.ant.kit [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.java.kit [1.14.1 20121011-unknown-revn]
+	org.netbeans.modules.db.metadata.model/0 [0.13.1 20121011-unknown-revn]
+	org.netbeans.modules.db/1 [1.44.1.30 30 20121011-unknown-revn]
+	org.netbeans.modules.dbschema/1 [1.23.1.4.30 4 20121011-unknown-revn]
+	org.netbeans.modules.dbapi [1.17.1.30 20121011-unknown-revn]
+	org.netbeans.modules.j2ee.core.utilities/0 [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.j2ee.persistence [1.22.1.1 1 20121011-unknown-revn]
+	org.netbeans.modules.autoupdate.pluginimporter [1.1.1 20121011-unknown-revn]
+	org.netbeans.modules.ide.branding/1 [1.16.1 20121011-unknown-revn]
+	org.netbeans.modules.ide.branding.kit [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.i18n.form/2 [1.33.1.2 20121011-unknown-revn]
+	org.netbeans.modules.hudson [1.10.1 20121011-unknown-revn]
+	org.netbeans.modules.hudson.subversion [1.9.1 20121011-unknown-revn]
+	org.netbeans.modules.hudson.mercurial [1.9.1 20121011-unknown-revn]
+	org.netbeans.modules.hudson.ant [1.9.1 20121011-unknown-revn]
+	org.netbeans.modules.html.editor/1 [1.28.1 20121011-unknown-revn]
+	org.netbeans.modules.form.kit [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.form.j2ee/0 [0.15.1.1.2 1 20121011-unknown-revn]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.14.1 20121011-unknown-revn]
+	org.netbeans.modules.derby [1.23.1 20121011-unknown-revn]
+	org.netbeans.modules.debugger.jpda.projects [1.17.1 20121011-unknown-revn]
+	org.netbeans.modules.debugger.jpda/2 [1.34.1 20121011-unknown-revn]
+	org.netbeans.modules.debugger.jpda.ui/1 [1.20.1 20121011-unknown-revn]
+	org.netbeans.api.visual [2.28.1 20121011-unknown-revn]
+	org.netbeans.modules.db.sql.visualeditor/1 [2.13.1.30 20121011-unknown-revn]
+	org.netbeans.libs.swingx/1 [1.10.1 20121011-unknown-revn]
+	org.netbeans.modules.db.dataview [1.11.1 20121011-unknown-revn]
+	org.netbeans.modules.db.core [1.19.1 20121011-unknown-revn]
+	org.netbeans.modules.db.sql.editor [1.19.1.30 20121011-unknown-revn]
+	org.netbeans.modules.db.mysql [0.11.1.2 2 20121011-unknown-revn]
+	org.netbeans.modules.db.drivers [1.12.1 20121011-unknown-revn]
+	org.netbeans.modules.db.kit [1.14.1 20121011-unknown-revn]
+	org.netbeans.modules.apisupport.ant [2.43.1 20121011-unknown-revn]
+	org.netbeans.libs.freemarker/1 [2.15.1.238 238 20121011-unknown-revn]
+	org.netbeans.modules.apisupport.project/1 [1.46.1 20121011-unknown-revn]
+	org.netbeans.modules.apisupport.refactoring [1.18.1 20121011-unknown-revn]
+	org.netbeans.modules.apisupport.paintapp [1.14.1 20121011-unknown-revn]
+	org.netbeans.modules.apisupport.osgidemo [1.6.1 20121011-unknown-revn]
+	org.netbeans.modules.apisupport.harness [1.26.1 20121011-unknown-revn]
+	org.netbeans.modules.apisupport.crudsample [1.6.1 20121011-unknown-revn]
+	org.netbeans.modules.apisupport.kit [1.13.1 20121011-unknown-revn]
+	org.netbeans.modules.ant.grammar/1 [1.27.1 20121011-unknown-revn]
+	org.netbeans.libs.svnClientAdapter.svnkit/1 [1.2.1 20121011-unknown-revn]
+	org.netbeans.libs.svnClientAdapter.javahl/1 [1.3.1 20121011-unknown-revn]
+	org.netbeans.core.netigso [1.9.1 20121011-unknown-revn]
+	org.netbeans.core.nativeaccess/1 [1.12.1 20121011-unknown-revn]
+	org.netbeans.core.io.ui/1 [1.12.1 20121011-unknown-revn]
+WARNING [org.netbeans.Stamps]: Error saving cache /home/cgmcname/.netbeans/7.0/var/cache/all-resources.dat
+INFO [org.netbeans.Stamps]: /usr/share/netbeans/7.0.1/ide/modules/ext/svnkit-javahl.jar (No such file or directory)
+java.io.FileNotFoundException: /usr/share/netbeans/7.0.1/ide/modules/ext/svnkit-javahl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:133)
+	at org.netbeans.JarClassLoader$JarSource$1.call(Unknown Source)
+	at org.netbeans.JarClassLoader$JarSource$1.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.netbeans.JarClassLoader$JarSource.getJarFile(Unknown Source)
+	at org.netbeans.JarClassLoader$JarSource.listCoveredPackages(Unknown Source)
+	at org.netbeans.JarClassLoader.getCoveredPackages(Unknown Source)
+	at org.netbeans.JarClassLoader.<init>(Unknown Source)
+	at org.netbeans.StandardModule$OneModuleClassLoader.<init>(Unknown Source)
+	at org.netbeans.StandardModule.createNewClassLoader(Unknown Source)
+	at org.netbeans.StandardModule.classLoaderUp(Unknown Source)
+	at org.netbeans.ModuleManager.enable(Unknown Source)
+	at org.netbeans.core.startup.ModuleList.installNew(Unknown Source)
+	at org.netbeans.core.startup.ModuleList.trigger(Unknown Source)
+	at org.netbeans.core.startup.ModuleSystem.restore(Unknown Source)
+	at org.netbeans.core.startup.Main.getModuleSystem(Unknown Source)
+	at org.netbeans.core.startup.Main.start(Unknown Source)
+	at org.netbeans.core.startup.TopThreadGroup.run(Unknown Source)
+[catch] at java.lang.Thread.run(Thread.java:745)
+Diagnostic information
+Input arguments:
+	-Djdk.home=/usr/lib/jvm/java-7-openjdk-amd64
+	-Djava.library.path=/usr/lib/jni
+	-Dnetbeans.dirs=/usr/share/netbeans/7.0.1/nb:/usr/share/netbeans/7.0.1/bin/../ergonomics:/usr/share/netbeans/7.0.1/ide:/usr/share/netbeans/7.0.1/java:/usr/share/netbeans/7.0.1/bin/../xml:/usr/share/netbeans/7.0.1/apisupport:/usr/share/netbeans/7.0.1/bin/../webcommon:/usr/share/netbeans/7.0.1/bin/../websvccommon:/usr/share/netbeans/7.0.1/bin/../enterprise:/usr/share/netbeans/7.0.1/bin/../mobility:/usr/share/netbeans/7.0.1/bin/../profiler:/usr/share/netbeans/7.0.1/bin/../ruby:/usr/share/netbeans/7.0.1/bin/../python:/usr/share/netbeans/7.0.1/bin/../php:/usr/share/netbeans/7.0.1/bin/../visualweb:/usr/share/netbeans/7.0.1/bin/../soa:/usr/share/netbeans/7.0.1/bin/../identity:/usr/share/netbeans/7.0.1/bin/../uml:/usr/share/netbeans/7.0.1/harness:/usr/share/netbeans/7.0.1/bin/../cnd:/usr/share/netbeans/7.0.1/bin/../dlight:/usr/share/netbeans/7.0.1/bin/../groovy:/usr/share/netbeans/7.0.1/bin/../extra:/usr/share/netbeans/7.0.1/bin/../javafx:/usr/share/netbeans/7.0.1/bin/../javacard:
+	-Dnetbeans.home=/usr/share/netbeans/7.0.1/platform
+	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
+	-Dnetbeans.accept_license_class=org.netbeans.license.AcceptLicense
+	-XX:MaxPermSize=384m
+	-Xmx768m
+	-Xss2m
+	-Xms32m
+	-XX:PermSize=32m
+	-Dapple.laf.useScreenMenuBar=true
+	-Dapple.awt.graphics.UseQuartz=true
+	-Dsun.java2d.noddraw=true
+	-Dsun.java2d.pmoffscreen=false
+Compiler: HotSpot 64-Bit Tiered Compilers
+Heap memory usage: initial 32.0MB maximum 683.0MB
+Non heap memory usage: initial 34.4MB maximum 432.0MB
+Garbage collector: PS Scavenge (Collections=11 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=1 Total time spent=0s)
+Classes: loaded=6568 total loaded=6568 unloaded 0
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 33,738,854,400
+WARNING [org.openide.util.WeakListenerImpl]: Can't remove java.beans.PropertyChangeListener using method removePropertyChangeListener from org.netbeans.modules.editor.NbEditorDocument@3424a2b3, mimeType='text/x-java', kitClass=null, length=3926, version=1, file=null

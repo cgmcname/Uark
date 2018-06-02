@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+>Log Session: Monday, September 14, 2015 12:47:33 PM CDT
+>System Info: 
+  Product Version         = NetBeans IDE 7.0.1 (Build 20121011-unknown-revn)
+  Operating System        = Linux version 3.13.0-43-generic running on amd64
+  Java; VM; Vendor        = 1.7.0_79; OpenJDK 64-Bit Server VM 24.79-b02; Oracle Corporation
+  Runtime                 = OpenJDK Runtime Environment 1.7.0_79-b14
+  Java Home               = /usr/lib/jvm/java-7-openjdk-amd64/jre
+  System Locale; Encoding = en_US (nb); UTF-8
+  Home Directory          = /home/cgmcname
+  Current Directory       = /home/cgmcname/CSCE2004
+  User Directory          = /home/cgmcname/.netbeans/7.0
+  Installation            = /usr/share/netbeans/7.0.1/nb
+                            /usr/share/netbeans/7.0.1/ide
+                            /usr/share/netbeans/7.0.1/java
+                            /usr/share/netbeans/7.0.1/apisupport
+                            /usr/share/netbeans/7.0.1/harness
+                            /usr/share/netbeans/7.0.1/platform
+  Boot & Ext. Classpath   = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+  Application Classpath   = /usr/share/netbeans/7.0.1/platform/lib/boot.jar:/usr/share/netbeans/7.0.1/platform/lib/org-openide-modules.jar:/usr/share/netbeans/7.0.1/platform/lib/org-openide-util.jar:/usr/share/netbeans/7.0.1/platform/lib/org-openide-util-lookup.jar:/usr/lib/jvm/java-7-openjdk-amd64/lib/dt.jar:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar
+  Startup Classpath       = /usr/share/netbeans/7.0.1/platform/core/core.jar:/usr/share/netbeans/7.0.1/platform/core/org-openide-filesystems.jar:/usr/share/netbeans/7.0.1/nb/core/org-netbeans-upgrader.jar:/usr/share/netbeans/7.0.1/nb/core/locale/core_nb.jar
+-------------------------------------------------------------------------------
+Error: Can't connect to X11 window server using 'localhost:14.0' as the value of the DISPLAY variable.
+See the /home/cgmcname/.netbeans/7.0/var/log/messages.log for details.
+java.lang.InternalError: Can't connect to X11 window server using 'localhost:14.0' as the value of the DISPLAY variable.
+	at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at sun.awt.X11GraphicsEnvironment.access$200(X11GraphicsEnvironment.java:65)
+	at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:110)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:74)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:191)
+	at java.awt.GraphicsEnvironment.createGE(GraphicsEnvironment.java:102)
+	at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:81)
+	at org.netbeans.core.startup.Main.start(Unknown Source)
+	at org.netbeans.core.startup.TopThreadGroup.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)

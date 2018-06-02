@@ -1,0 +1,8 @@
+/usr/share/netbeans/7.0.1/platform=1349950930000
+/usr/share/netbeans/7.0.1/nb=1349950712000
+/usr/share/netbeans/7.0.1/ide=1349950931000
+/usr/share/netbeans/7.0.1/java=1349950931000
+/usr/share/netbeans/7.0.1/apisupport=1349950932000
+/usr/share/netbeans/7.0.1/harness=1349950930000
+/home/cgmcname/.netbeans/7.0=1349950932000
+crc=7

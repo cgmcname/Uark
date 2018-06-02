@@ -1,0 +1,4 @@
+services.addons.mozilla.org:HSTS	1	16703	1474754479166,1,0
+www.facebook.com:HSTS	0	16703	1458770752731,1,0
+blocklist.addons.mozilla.org:HSTS	1	16703	1474754599171,1,0
+www.outlook.com:HSTS	0	16703	1474754689179,1,1

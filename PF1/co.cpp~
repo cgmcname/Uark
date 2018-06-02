@@ -1,0 +1,42 @@
+// Example program
+#include <iostream>
+
+#include <cstdlib>
+
+using namespace std;
+
+void swap (int a, int b)
+{
+   int temp=a;
+   a=b;
+   b=temp;
+}
+ 
+ 
+int distance (int a, int b)
+{
+   
+   if (b > a) 
+      swap (a,b);   
+ 
+  return (a-b);
+}
+
+int main()
+{
+ // int var1[4] ={4, 7, 12, 5};
+ // int var2[4]= {15, 3, 6, 14};
+  //int result[4]={0};
+  
+  int c = 2;
+  int d = 3;
+  int q = 0;
+  for (int i=0 ; i< 4; i++)
+  {
+    q = distance(c,d);
+    cout << q << endl;
+  }
+  
+  return 0;
+}
+

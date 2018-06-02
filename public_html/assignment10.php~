@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("First name must be filled out");
+        return false;
+    }
+	var y = document.forms["myForm"]["lname"].value;
+    if (y == "") {
+        alert("Last name must be filled out");
+        return false;
+    }
+	var z = document.forms["myForm"]["email"].value;
+	
+	
+    if (z == "") {
+        alert("E-Mail must be filled out");
+        return false;
+    }
+	
+	if(z.indexOf('.') == -1)
+	{
+		alert("E-Mail name is invalid");
+		return false;
+	}
+	
+	if(z.indexOf('@') == -1)
+	{
+		alert("E-Mail name is invalid");
+		return false;
+	}
+	
+	
+}
+</script>
+</head>
+<body>
+
+<?php
+$Display = true;
+if (isset($_GET['submit']))
+{
+	$hold = rand(1,5);
+	$Display = false;
+	echo "Hi " . $_GET['fname'] . " " . $_GET['lname'] ."!";
+	?>
+	<form  action="assignment10.php" method="post">
+	Your Guess: <input type="number" name="guess"> <br>
+	<input type="hidden"  value= $hold name "randv"> 
+
+	<input type="submit" name="check" value="guess">
+	</form>
+	<?php
+	if (isset($_POST['check']))
+	{
+		if ($_POST['randv'] == $_POST['guess'])
+		{
+			echo yo;
+			
+		}
+		else 
+		{
+			echo dag;
+		}
+	}
+}
+
+if ($Display)
+{ ?>
+	<form name="myForm" action="assignment10.php"
+	onsubmit="return validateForm()" method="get">
+	First Name: <input type="text" name="fname"> <br>
+	Last Name: 	<input type="text" name="lname"> <br>
+	E-Mail: 	<input type="text" name="email"> <br>
+
+	<input type="Submit" name="submit" value="submit">
+	</form>
+	<?php
+}
+
+?>
+
+
+
+
+
+</body>
+
+</html>
+

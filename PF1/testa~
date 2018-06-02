@@ -1,0 +1,46 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+int main()
+{
+// Set values
+int Num_of_courses;
+
+string coursename;
+string coursenum;
+
+char grade;
+
+double coursehours,
+	   gpv1,
+	   totalgxh = 0.0,
+	   totalhours,
+	   grade_x_hours = 0.0,
+	   formula;
+const int PH = 10;
+int Gpa[PH];
+int hours[PH];
+
+for (int index = 0; index < PH; index++)
+	{
+		cout << "Enter Gpa for course #" << (index +1) << ": ";
+		cin >> Gpa[index];
+		cout << "Enter hours for course #" << (index +1)<< ": ";
+		cin >> hours[index]; 
+	}
+	  
+for (int index = 0; index < PH; index++)
+	{
+		totalhours += hour[index]
+		grade_x_hours = Gpa[index]*hours[index];
+		totalgxh += grade_x_hours;
+	}
+	
+	formula = (totalgxh/totalhours);
+		
+	cout << "Your gpa is:" << setprecision(3) << formula << endl;
+	   
+return 0;
+}

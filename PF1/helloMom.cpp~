@@ -1,0 +1,19 @@
+// Include statements
+#include <iostream>
+using namespace std;
+
+// Main function
+int main()
+{
+   // Initialize variables
+   string name = "Dad";
+   float amount = 99.99;
+ 
+   // Print an output message
+   cout << "Hello " << name << endl;
+   cin >> name;
+   cout << "Please send " << amount << " dollars" << endl;
+   cin >> amount;
+   cout << "Thanks!!" << endl;
+   return 0 ;
+}
